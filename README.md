@@ -28,6 +28,21 @@ jar -cvf mapreduce_task.jar -C mapreduce_classes .
 hadoop jar mapreduce_task.jar pv_daily /input_path /output_path
 ```
 ### spark
+使用两台机器部署 hdfs 集群作为后端分布式存储，yarn 作为任务资源调度器，具体分配如下：
+
+|      node1      |    node2    |
+| :-------------: | :---------: |
+|    NameNode     |  DataNode   |
+|  SecondaryNode  | NodeManager |
+|    DataNode     |             |
+| ResourceManager |             |
+|   NodeManager   |             |
+
+使用 spark on yarn 的方式进行任务提交运行，即通过 pyspark 编写任务提交给 yarn 作分布式资源分配调度，提交任务并运行：
+```shell
+spark-submit --master yarn --deploy-mode cluster ~/analyse.py
+```
+
 ### flink
 ### 数据可视化
 进入frontend目录, 在命令行运行`streamlit run app.py`
