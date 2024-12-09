@@ -44,7 +44,24 @@ spark-submit --master yarn --deploy-mode cluster ~/analyse.py
 ```
 
 ### flink
+
+启动flink
+
+```shell
+./bin/start-cluster.sh
+```
+
+通过pyflink提交任务到flink执行.
+
+```python
+from pyflink.table import EnvironmentSettings, TableEnvironment, DataTypes
+
+env_settings = EnvironmentSettings.new_instance().in_batch_mode().build()
+t_env = TableEnvironment.create(env_settings)
+```
+
 ### 数据可视化
+
 进入frontend目录, 在命令行运行`streamlit run app.py`
 
 ## 3. 研究结果
