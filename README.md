@@ -21,7 +21,7 @@
 
 打包  
 ```
-jar -cvf mapreduce_task.jar -C mapreduce_classes .
+jar -cvf mapreduce_task.jar -C mapreduce .
 ```
 提交到Hadoop集群运行,input_path和output_path是hdfs路径
 ```
