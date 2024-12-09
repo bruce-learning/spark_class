@@ -9,8 +9,25 @@
 
 
 ## 2. 研究方法
-采用mapreduce、spark和flink三种不同方法进行数据分析并比较不同方法在此任务上的性能表现。
-### mapreduce执行
+本实验采用 MapReduce、Spark 和 Flink 三种大数据处理技术，对同一数据分析任务进行实现，并比较其在任务执行效率和性能上的表现。
+### 数据预处理
+数据清洗：  
+检查并处理缺失值和异常值。  
+格式化时间戳为标准日期时间格式。  
+统一行为类型字段（浏览、收藏、加购、购买）。
+数据存储：
+数据存储于HDFS当中以便进行分布式处理
+### mapreduce
+基于伪分布式hadoop实现，将java程序打包成jar包提交到Hadoop集群运行  
+
+打包  
+```
+jar -cvf mapreduce_task.jar -C mapreduce_classes .
+```
+提交到Hadoop集群运行,input_path和output_path是hdfs路径
+```
+hadoop jar mapreduce_task.jar pv_daily /input_path /output_path
+```
 ## 3. 研究结果
 ### 流量分析
 #### 1.基于天级别访问流量分析
