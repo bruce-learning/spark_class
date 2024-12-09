@@ -27,6 +27,10 @@ jar -cvf mapreduce_task.jar -C mapreduce_classes .
 ```
 hadoop jar mapreduce_task.jar pv_daily /input_path /output_path
 ```
+### spark
+### flink
+### 数据可视化
+
 ## 3. 研究结果
 ### 流量分析
 #### 1.基于天级别访问流量分析
