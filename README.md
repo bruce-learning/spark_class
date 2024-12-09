@@ -61,8 +61,13 @@ t_env = TableEnvironment.create(env_settings)
 ```
 
 ### 数据可视化
+安装streamlit, `pip install streamlit`
 
-进入frontend目录, 在命令行运行`streamlit run app.py`
+`method_comparison_visualization.py`：对mapreduce、spark、flink三种方法的计算性能分析结果的可视化文件
+
+`user_analysis_visualization.py`：对电商平台用户购物行为分析结果的可视化文件
+
+运行方法：进入frontend目录, 根据想要执行的不同任务，在命令行运行`streamlit run method_comparison_visualization.py` 或者 `streamlit run user_analysis_visualization.py`
 
 ## 3. 研究结果
 ### 性能分析
