@@ -65,6 +65,15 @@ t_env = TableEnvironment.create(env_settings)
 进入frontend目录, 在命令行运行`streamlit run app.py`
 
 ## 3. 研究结果
+### 性能分析
+#### mapreduce,spark,flink执行时间比较
+![three_methods_comparison](images/three_methods_comparison.png)  
+#### mapreduce各任务执行时间
+![mapreduce](images/mapreduce.png)  
+#### spark各任务执行时间
+![spark](images/spark.png)  
+#### flink各任务执行时间
+![flink](images/flink.png)  
 ### 流量分析
 #### 1.基于天级别访问流量分析
 ![pv_uv_daily](images/pv_uv_daily.png)  
