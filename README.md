@@ -25,7 +25,7 @@ jar -cvf mapreduce_task.jar -C mapreduce .
 ```
 提交到Hadoop集群运行,input_path和output_path是hdfs路径
 ```
-hadoop jar mapreduce_task.jar pv_daily /input_path /output_path
+hadoop jar mapreduce_task.jar Pv_Daily /input_path /output_path
 ```
 ### spark
 使用两台机器部署 hdfs 集群作为后端分布式存储，yarn 作为任务资源调度器，具体分配如下：
