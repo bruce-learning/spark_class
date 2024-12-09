@@ -1,0 +1,1 @@
+entry_count: 12256906, user_count: 10000, product_count: 2876947, product_category_count: 8916

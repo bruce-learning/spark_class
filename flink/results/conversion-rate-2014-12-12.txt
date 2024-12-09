@@ -1,0 +1,4 @@
+behavior_type: 1, count: 641507
+behavior_type: 2, count: 10446
+behavior_type: 3, count: 24508
+behavior_type: 4, count: 15251

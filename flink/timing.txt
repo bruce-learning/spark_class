@@ -1,0 +1,11 @@
+query counting executed in 1.7705 seconds
+query pv-uv-by-date executed in 0.7715 seconds
+query pv-uv-by-hour executed in 0.9822 seconds
+query pv-uv-by-hour-in-2014-12-12 executed in 0.9887 seconds
+query behavior-pv-by-hour executed in 0.9018 seconds
+query conversion-rate executed in 1.0916 seconds
+query conversion-rate-2014-12-12 executed in 1.0433 seconds
+query buy-count executed in 1.0997 seconds
+query arpu executed in 1.5153 seconds
+query arrpu executed in 1.3438 seconds
+query rebuy-average-date executed in 1.1564 seconds
