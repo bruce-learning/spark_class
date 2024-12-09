@@ -81,11 +81,13 @@ t_env = TableEnvironment.create(env_settings)
 ![flink](images/flink.png)  
 ### 流量分析
 #### 1.基于天级别访问流量分析
-![pv_uv_daily](images/pv_uv_daily.png)  
+![pv_daily](images/pv_daily.png)  
+![uv_daily](images/uv_daily.png)  
 不管是PV还是UV趋势，均在12号的时候出现了一个尖峰，说明双十二电商节的用户集中消费导致的变化  
 
 #### 2.基于小时级别访问流量分析
-![pv_uv_hour](images/pv_uv_hour.png)  
+![pv_hour](images/pv_hour.png)  
+![uv_hour](images/uv_hour.png)  
 可以看出，PV的高峰值出现在20点之后，可能的原因是淘宝的主力消费人群是工薪阶层，这部分群体在下班后开始使用淘宝浏览购物；UV的值比较恒定，上午10点之后便没有出现大的波动，一个可能的原因是用户早晨也会刷一下淘宝，比如看看物流状态，UV值在一天之内就不会再有大的变化波动了。 另外也可以看出，凌晨2点之后，PV/UV的趋势一致，均是一天中流量最小的时间段。  
 #### 3.双十二当天访问流量分析
 ![pv_hour_1212](images/pv_hour_1212.png)  
