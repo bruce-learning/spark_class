@@ -30,6 +30,7 @@ hadoop jar mapreduce_task.jar pv_daily /input_path /output_path
 ### spark
 ### flink
 ### 数据可视化
+进入frontend目录, 在命令行运行`streamlit run app.py`
 
 ## 3. 研究结果
 ### 流量分析

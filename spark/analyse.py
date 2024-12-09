@@ -3,17 +3,19 @@ from datetime import datetime
 import time
 import os
 
-pv_daily_out_path = "/homework/out/pv_daily"
-uv_daily_out_path = "/homework/out/uv_daily"
-pv_hourly_out_path = "/homework/out/pv_hourly"
-uv_hourly_out_path = "/homework/out/uv_hourly"
-pv_uv_hourly_1212_out_path = "/homework/out/pv_uv_hourly_1212"
-pv_behavior_out_path = "/homework/out/pv_behavior"
-arpu_out_path = "/homework/out/arpu"
-arppu_out_path = "/homework/out/arppu"
-data_user_buy_date_diff_out_path = "/homework/out/data_user_buy_date_diff"
+base_path = "/home/zym/spark_class/spark"
 
-log_file_path = "/homework/out/time.log"
+pv_daily_out_path = f"{base_path}/homework/out/pv_daily"
+uv_daily_out_path = f"{base_path}/homework/out/uv_daily"
+pv_hourly_out_path = f"{base_path}/homework/out/pv_hourly"
+uv_hourly_out_path = f"{base_path}/homework/out/uv_hourly"
+pv_uv_hourly_1212_out_path = f"{base_path}/homework/out/pv_uv_hourly_1212"
+pv_behavior_out_path = f"{base_path}/homework/out/pv_behavior"
+arpu_out_path = f"{base_path}/homework/out/arpu"
+arppu_out_path = f"{base_path}/homework/out/arppu"
+data_user_buy_date_diff_out_path = f"{base_path}/homework/out/data_user_buy_date_diff"
+
+log_file_path = f"{base_path}/homework/out/time.log"
 
 spark = SparkSession.builder.appName("Analyse").getOrCreate()
 
@@ -25,7 +27,8 @@ def log_execution_time(description, start_time, end_time):
     global log_rdd
     log_rdd = log_rdd.union(spark.sparkContext.getOrCreate().parallelize([log_message]))
 
-data_user = spark.sparkContext.textFile("hdfs://node1:9000/homework/user_action.csv")
+# data_user = spark.sparkContext.textFile("hdfs://node1:9000/homework/user_action.csv")
+data_user = spark.sparkContext.textFile("hdfs://localhost:9000/homework/user_action.csv")
 
 header = data_user.first()
 data_user = data_user.filter(lambda row: row != header)

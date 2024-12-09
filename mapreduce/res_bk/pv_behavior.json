@@ -1,0 +1,482 @@
+[
+    {
+        "behavior_type": 1,
+        "hour": 0,
+        "pv_behavior": 487341
+    },
+    {
+        "behavior_type": 1,
+        "hour": 1,
+        "pv_behavior": 252991
+    },
+    {
+        "behavior_type": 1,
+        "hour": 2,
+        "pv_behavior": 139139
+    },
+    {
+        "behavior_type": 1,
+        "hour": 3,
+        "pv_behavior": 93250
+    },
+    {
+        "behavior_type": 1,
+        "hour": 4,
+        "pv_behavior": 75832
+    },
+    {
+        "behavior_type": 1,
+        "hour": 5,
+        "pv_behavior": 83545
+    },
+    {
+        "behavior_type": 1,
+        "hour": 6,
+        "pv_behavior": 150356
+    },
+    {
+        "behavior_type": 1,
+        "hour": 7,
+        "pv_behavior": 272470
+    },
+    {
+        "behavior_type": 1,
+        "hour": 8,
+        "pv_behavior": 374701
+    },
+    {
+        "behavior_type": 1,
+        "hour": 9,
+        "pv_behavior": 456780
+    },
+    {
+        "behavior_type": 1,
+        "hour": 10,
+        "pv_behavior": 515960
+    },
+    {
+        "behavior_type": 1,
+        "hour": 11,
+        "pv_behavior": 493679
+    },
+    {
+        "behavior_type": 1,
+        "hour": 12,
+        "pv_behavior": 500036
+    },
+    {
+        "behavior_type": 1,
+        "hour": 13,
+        "pv_behavior": 561513
+    },
+    {
+        "behavior_type": 1,
+        "hour": 14,
+        "pv_behavior": 558245
+    },
+    {
+        "behavior_type": 1,
+        "hour": 15,
+        "pv_behavior": 562238
+    },
+    {
+        "behavior_type": 1,
+        "hour": 16,
+        "pv_behavior": 541846
+    },
+    {
+        "behavior_type": 1,
+        "hour": 17,
+        "pv_behavior": 476369
+    },
+    {
+        "behavior_type": 1,
+        "hour": 18,
+        "pv_behavior": 517078
+    },
+    {
+        "behavior_type": 1,
+        "hour": 19,
+        "pv_behavior": 696034
+    },
+    {
+        "behavior_type": 1,
+        "hour": 20,
+        "pv_behavior": 885669
+    },
+    {
+        "behavior_type": 1,
+        "hour": 21,
+        "pv_behavior": 1030483
+    },
+    {
+        "behavior_type": 1,
+        "hour": 22,
+        "pv_behavior": 1027268
+    },
+    {
+        "behavior_type": 1,
+        "hour": 23,
+        "pv_behavior": 797754
+    },
+    {
+        "behavior_type": 2,
+        "hour": 0,
+        "pv_behavior": 11062
+    },
+    {
+        "behavior_type": 2,
+        "hour": 1,
+        "pv_behavior": 6276
+    },
+    {
+        "behavior_type": 2,
+        "hour": 2,
+        "pv_behavior": 3311
+    },
+    {
+        "behavior_type": 2,
+        "hour": 3,
+        "pv_behavior": 2282
+    },
+    {
+        "behavior_type": 2,
+        "hour": 4,
+        "pv_behavior": 2010
+    },
+    {
+        "behavior_type": 2,
+        "hour": 5,
+        "pv_behavior": 2062
+    },
+    {
+        "behavior_type": 2,
+        "hour": 6,
+        "pv_behavior": 3651
+    },
+    {
+        "behavior_type": 2,
+        "hour": 7,
+        "pv_behavior": 5885
+    },
+    {
+        "behavior_type": 2,
+        "hour": 8,
+        "pv_behavior": 7849
+    },
+    {
+        "behavior_type": 2,
+        "hour": 9,
+        "pv_behavior": 10507
+    },
+    {
+        "behavior_type": 2,
+        "hour": 10,
+        "pv_behavior": 11185
+    },
+    {
+        "behavior_type": 2,
+        "hour": 11,
+        "pv_behavior": 10918
+    },
+    {
+        "behavior_type": 2,
+        "hour": 12,
+        "pv_behavior": 9940
+    },
+    {
+        "behavior_type": 2,
+        "hour": 13,
+        "pv_behavior": 11694
+    },
+    {
+        "behavior_type": 2,
+        "hour": 14,
+        "pv_behavior": 11695
+    },
+    {
+        "behavior_type": 2,
+        "hour": 15,
+        "pv_behavior": 12010
+    },
+    {
+        "behavior_type": 2,
+        "hour": 16,
+        "pv_behavior": 11127
+    },
+    {
+        "behavior_type": 2,
+        "hour": 17,
+        "pv_behavior": 9754
+    },
+    {
+        "behavior_type": 2,
+        "hour": 18,
+        "pv_behavior": 10342
+    },
+    {
+        "behavior_type": 2,
+        "hour": 19,
+        "pv_behavior": 13952
+    },
+    {
+        "behavior_type": 2,
+        "hour": 20,
+        "pv_behavior": 16599
+    },
+    {
+        "behavior_type": 2,
+        "hour": 21,
+        "pv_behavior": 20397
+    },
+    {
+        "behavior_type": 2,
+        "hour": 22,
+        "pv_behavior": 20343
+    },
+    {
+        "behavior_type": 2,
+        "hour": 23,
+        "pv_behavior": 17705
+    },
+    {
+        "behavior_type": 3,
+        "hour": 0,
+        "pv_behavior": 14156
+    },
+    {
+        "behavior_type": 3,
+        "hour": 1,
+        "pv_behavior": 6712
+    },
+    {
+        "behavior_type": 3,
+        "hour": 2,
+        "pv_behavior": 3834
+    },
+    {
+        "behavior_type": 3,
+        "hour": 3,
+        "pv_behavior": 2480
+    },
+    {
+        "behavior_type": 3,
+        "hour": 4,
+        "pv_behavior": 2248
+    },
+    {
+        "behavior_type": 3,
+        "hour": 5,
+        "pv_behavior": 2213
+    },
+    {
+        "behavior_type": 3,
+        "hour": 6,
+        "pv_behavior": 3768
+    },
+    {
+        "behavior_type": 3,
+        "hour": 7,
+        "pv_behavior": 7044
+    },
+    {
+        "behavior_type": 3,
+        "hour": 8,
+        "pv_behavior": 9970
+    },
+    {
+        "behavior_type": 3,
+        "hour": 9,
+        "pv_behavior": 12956
+    },
+    {
+        "behavior_type": 3,
+        "hour": 10,
+        "pv_behavior": 16203
+    },
+    {
+        "behavior_type": 3,
+        "hour": 11,
+        "pv_behavior": 15257
+    },
+    {
+        "behavior_type": 3,
+        "hour": 12,
+        "pv_behavior": 15025
+    },
+    {
+        "behavior_type": 3,
+        "hour": 13,
+        "pv_behavior": 17419
+    },
+    {
+        "behavior_type": 3,
+        "hour": 14,
+        "pv_behavior": 17067
+    },
+    {
+        "behavior_type": 3,
+        "hour": 15,
+        "pv_behavior": 17289
+    },
+    {
+        "behavior_type": 3,
+        "hour": 16,
+        "pv_behavior": 16304
+    },
+    {
+        "behavior_type": 3,
+        "hour": 17,
+        "pv_behavior": 14515
+    },
+    {
+        "behavior_type": 3,
+        "hour": 18,
+        "pv_behavior": 14823
+    },
+    {
+        "behavior_type": 3,
+        "hour": 19,
+        "pv_behavior": 18853
+    },
+    {
+        "behavior_type": 3,
+        "hour": 20,
+        "pv_behavior": 25021
+    },
+    {
+        "behavior_type": 3,
+        "hour": 21,
+        "pv_behavior": 30469
+    },
+    {
+        "behavior_type": 3,
+        "hour": 22,
+        "pv_behavior": 32504
+    },
+    {
+        "behavior_type": 3,
+        "hour": 23,
+        "pv_behavior": 27434
+    },
+    {
+        "behavior_type": 4,
+        "hour": 0,
+        "pv_behavior": 4845
+    },
+    {
+        "behavior_type": 4,
+        "hour": 1,
+        "pv_behavior": 1703
+    },
+    {
+        "behavior_type": 4,
+        "hour": 2,
+        "pv_behavior": 806
+    },
+    {
+        "behavior_type": 4,
+        "hour": 3,
+        "pv_behavior": 504
+    },
+    {
+        "behavior_type": 4,
+        "hour": 4,
+        "pv_behavior": 397
+    },
+    {
+        "behavior_type": 4,
+        "hour": 5,
+        "pv_behavior": 476
+    },
+    {
+        "behavior_type": 4,
+        "hour": 6,
+        "pv_behavior": 1023
+    },
+    {
+        "behavior_type": 4,
+        "hour": 7,
+        "pv_behavior": 1938
+    },
+    {
+        "behavior_type": 4,
+        "hour": 8,
+        "pv_behavior": 3586
+    },
+    {
+        "behavior_type": 4,
+        "hour": 9,
+        "pv_behavior": 5707
+    },
+    {
+        "behavior_type": 4,
+        "hour": 10,
+        "pv_behavior": 7317
+    },
+    {
+        "behavior_type": 4,
+        "hour": 11,
+        "pv_behavior": 7086
+    },
+    {
+        "behavior_type": 4,
+        "hour": 12,
+        "pv_behavior": 6956
+    },
+    {
+        "behavior_type": 4,
+        "hour": 13,
+        "pv_behavior": 7717
+    },
+    {
+        "behavior_type": 4,
+        "hour": 14,
+        "pv_behavior": 7207
+    },
+    {
+        "behavior_type": 4,
+        "hour": 15,
+        "pv_behavior": 7312
+    },
+    {
+        "behavior_type": 4,
+        "hour": 16,
+        "pv_behavior": 6930
+    },
+    {
+        "behavior_type": 4,
+        "hour": 17,
+        "pv_behavior": 5298
+    },
+    {
+        "behavior_type": 4,
+        "hour": 18,
+        "pv_behavior": 5140
+    },
+    {
+        "behavior_type": 4,
+        "hour": 19,
+        "pv_behavior": 6352
+    },
+    {
+        "behavior_type": 4,
+        "hour": 20,
+        "pv_behavior": 7872
+    },
+    {
+        "behavior_type": 4,
+        "hour": 21,
+        "pv_behavior": 8829
+    },
+    {
+        "behavior_type": 4,
+        "hour": 22,
+        "pv_behavior": 8845
+    },
+    {
+        "behavior_type": 4,
+        "hour": 23,
+        "pv_behavior": 6359
+    }
+]
